@@ -2,7 +2,7 @@
 
 - StudySphere is an e-learning platform designed to provide a seamless and interactive learning experience for students, making education more accessible and engaging. It also serves as a platform for instructors to showcase their expertise and connect with learners across the globe.
 
-## Table of Contents
+## Table of Contents 
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
