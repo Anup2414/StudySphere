@@ -117,7 +117,7 @@ git checkout -b feature/your-feature-name
 
 ## Make your changes and commit them:
 ```js
-git commit -m 'Add some feature'
+git commit -m 'Add some feature' 
 ```
 - Push to the branch:
 ```js
