@@ -8,8 +8,7 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -109,18 +108,3 @@ npm start
 
 
 
-## Fork the repository.
-- Create a new branch:
-```js
-git checkout -b feature/your-feature-name
-```
-
-## Make your changes and commit them:
-```js
-git commit -m 'Add some feature' 
-```
-- Push to the branch:
-```js
-git push origin feature/your-feature-name
-Create a pull request detailing your changes.
-```
