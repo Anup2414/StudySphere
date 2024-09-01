@@ -29,13 +29,7 @@ function SignupForm() {
 
   const { firstName, lastName, email, password, confirmPassword } = formData
 
-  // Handle input fields, when some value changes
-  const handleOnChange = (e) => {
-    setFormData((prevData) => ({
-      ...prevData,
-      [e.target.name]: e.target.value,
-    }))
-  }
+  
 
   // Handle Form Submission
   const handleOnSubmit = (e) => {
@@ -49,6 +43,14 @@ function SignupForm() {
       ...formData,
       accountType,
     }
+
+  // Handle input fields, when some value changes
+  const handleOnChange = (e) => {
+    setFormData((prevData) => ({
+      ...prevData,
+      [e.target.name]: e.target.value,
+    }))
+  }
 
     // Setting signup data to state
     // To be used after otp verification
