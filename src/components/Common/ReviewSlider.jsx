@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import ReactStars from "react-rating-stars-component"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react"
-
 // Import Swiper styles
 import "swiper/css"
 import "swiper/css/free-mode"
@@ -21,6 +20,8 @@ function ReviewSlider() {
   const [reviews, setReviews] = useState([])
   const truncateWords = 15
 
+  // console.log(reviews)
+
   useEffect(() => {
     ;(async () => {
       const { data } = await apiConnector(
@@ -32,8 +33,6 @@ function ReviewSlider() {
       }
     })()
   }, [])
-
-  // console.log(reviews)
 
   return (
     <div className="text-white">
@@ -103,5 +102,6 @@ function ReviewSlider() {
     </div>
   )
 }
+
 
 export default ReviewSlider
